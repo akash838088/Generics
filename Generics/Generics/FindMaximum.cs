@@ -41,5 +41,22 @@ namespace Generics
             }
             throw new Exception("valueOne,valueTwo,valueThree are same");
         }
+        public string MaxString(string nameOne, string nameTwo, string nameThree)
+        {
+
+            if (nameOne.CompareTo(nameTwo) > 0 && nameOne.CompareTo(nameThree) > 0)
+            {
+                return nameOne;
+            }
+            if (nameTwo.CompareTo(nameOne) > 0 && nameTwo.CompareTo(nameThree) > 0)
+            {
+                return nameTwo;
+            }
+            if (nameThree.CompareTo(nameOne) > 0 && nameThree.CompareTo(nameTwo) > 0)
+            {
+                return nameThree;
+            }
+            throw new Exception("nameOne,nameTwo,nameThree are same");
+        }
     }
 }
