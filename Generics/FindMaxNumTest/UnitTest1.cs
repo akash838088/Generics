@@ -23,6 +23,13 @@ namespace FindMaxNumTest
             int answer = intFindMax.GenericValue(23, 56, 41);
             Assert.AreEqual(9, answer);
         }
+        //Maximum At Third Position
+        [Test]
+        public void GivenMaxSecoundNum_WhenAnalysed_ShouldReturnThirdMax()
+        {
+            int answer = intFindMax.GenericValue(23, 41, 56);
+            Assert.AreEqual(56, answer);
+        }
 
     }
 }
