@@ -58,6 +58,8 @@ namespace FindMaxNumTest
             //Assert.Pass();
 
         }
+
+        //Maximum String At First Position
         [Test]
         public void GivenMaxFirstNum_WhenAnalysed_ShouldReturnstringMax()
         {
@@ -66,5 +68,16 @@ namespace FindMaxNumTest
             //Assert.Pass();
 
         }
+
+        //Maximum String At Second Position
+        [Test]
+        public void GivenMaxFirstNum_WhenAnalysed_ShouldReturnsecondMax()
+        {
+            string result = stringFindMax.GenericValue( "Apple", "Peach", "Banana");
+            Assert.AreEqual("Peach", result);
+            //Assert.Pass();
+
+        }
+
     }
 }
