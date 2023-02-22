@@ -48,5 +48,15 @@ namespace FindMaxNumTest
             //Assert.Pass();
 
         }
+
+        //Maximum double At ThirdPosition
+        [Test]
+        public void GivenMaxFirstNum_WhenAnalysed_ShouldReturnThirdMax()
+        {
+            double result = doubleFindMax.GenericValue(78.54, 58.99, 98.78);
+            Assert.AreEqual(98.78, result);
+            //Assert.Pass();
+
+        }
     }
 }
