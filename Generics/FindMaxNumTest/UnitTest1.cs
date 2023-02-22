@@ -58,5 +58,13 @@ namespace FindMaxNumTest
             //Assert.Pass();
 
         }
+        [Test]
+        public void GivenMaxFirstNum_WhenAnalysed_ShouldReturnstringMax()
+        {
+            string result = stringFindMax.GenericValue("Peach", "Apple", "Banana");
+            Assert.AreEqual("Peach", result);
+            //Assert.Pass();
+
+        }
     }
 }
