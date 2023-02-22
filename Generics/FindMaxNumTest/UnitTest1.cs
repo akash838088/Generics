@@ -16,6 +16,13 @@ namespace FindMaxNumTest
             //Assert.Pass();
 
         }
+        //Maximum At Second Position
+        [Test]
+        public void GivenMaxSecoundNum_WhenAnalysed_ShouldReturnSecoundMax()
+        {
+            int answer = intFindMax.GenericValue(23, 56, 41);
+            Assert.AreEqual(9, answer);
+        }
 
     }
 }
