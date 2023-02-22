@@ -30,6 +30,15 @@ namespace FindMaxNumTest
             int answer = intFindMax.GenericValue(23, 41, 56);
             Assert.AreEqual(56, answer);
         }
+        //Maximum double At First Position
+        [Test]
+        public void GivenMaxFirstNum_WhenAnalysed_ShouldReturndoubleMax()
+        {
+            double result = doubleFindMax.GenericValue(65.6, 3.89, 45.9);
+            Assert.AreEqual(65.6, result);
+            //Assert.Pass();
+
+        }
 
     }
 }
