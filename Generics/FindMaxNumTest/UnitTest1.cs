@@ -79,5 +79,15 @@ namespace FindMaxNumTest
 
         }
 
+        //Maximum String At Third Position
+        [Test]
+        public void GivenMaxFirstNum_WhenAnalysed_ShouldReturnthirdMax()
+        {
+            string result = stringFindMax.GenericValue("Apple", "Banana","Peach");
+            Assert.AreEqual("Peach", result);
+            //Assert.Pass();
+
+        }
+
     }
 }
