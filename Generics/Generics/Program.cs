@@ -19,13 +19,13 @@ namespace Generics
             {
                 case 1:
                     Console.WriteLine("Finding maximum of three numbers");
-                    int maximumNum = integer.MaxInteger(31, 31, 81);
+                    int maximumNum = integer.MaxInteger(91, 88, 81);
                     Console.WriteLine("Maximum Number is :" + maximumNum);
                     Console.ReadLine();
                     break;
                 case 2:
                     Console.WriteLine("Finding maximum of three floating numbers");
-                    float maximumFloat = integer.MaxFloat(12.3, 45.6, 8.45);
+                    float maximumFloat = integer.MaxFloat(42.3, 65.6, 3.89);
                     Console.WriteLine("Maximum Floating Number is : " + maximumFloat);
                     Console.ReadLine();
                     break;
